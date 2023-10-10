@@ -1572,24 +1572,6 @@
 											"height": 13,
 											"text": "+visit(i : CD)",
 											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAGLGPj/4ZY8agc=",
-											"_parent": {
-												"$ref": "AAAAAAGLGM3V+Xpp8ko="
-											},
-											"model": {
-												"$ref": "AAAAAAGLGPj/3pY2gKw="
-											},
-											"fillColor": "#67a285",
-											"font": "Arial;13;0",
-											"left": 1045,
-											"top": 222,
-											"width": 117.3681640625,
-											"height": 13,
-											"text": "+visit(i: Item)",
-											"horizontalAlignment": 0
 										}
 									],
 									"fillColor": "#67a285",
@@ -1597,7 +1579,7 @@
 									"left": 1040,
 									"top": 187,
 									"width": 127.3681640625,
-									"height": 53
+									"height": 38
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -1814,24 +1796,6 @@
 											"height": 13,
 											"text": "+visit(i: CD)",
 											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAGLGPmyAZfzodc=",
-											"_parent": {
-												"$ref": "AAAAAAGLGNMfeX6sFx4="
-											},
-											"model": {
-												"$ref": "AAAAAAGLGPmx/pft32c="
-											},
-											"fillColor": "#ffd6ad",
-											"font": "Arial;13;0",
-											"left": 909,
-											"top": 390,
-											"width": 103.65087890625,
-											"height": 13,
-											"text": "+visit(i: Item)",
-											"horizontalAlignment": 0
 										}
 									],
 									"fillColor": "#ffd6ad",
@@ -1839,7 +1803,7 @@
 									"left": 904,
 									"top": 355,
 									"width": 113.65087890625,
-									"height": 53
+									"height": 38
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -2056,24 +2020,6 @@
 											"height": 13,
 											"text": "+visit(m: CD)",
 											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAGLGPnweZiG5P8=",
-											"_parent": {
-												"$ref": "AAAAAAGLGNOoYH+oAq0="
-											},
-											"model": {
-												"$ref": "AAAAAAGLGPnwdpiAHew="
-											},
-											"fillColor": "#ffd6ad",
-											"font": "Arial;13;0",
-											"left": 1125,
-											"top": 390,
-											"width": 103.65087890625,
-											"height": 13,
-											"text": "+visit(i: Item)",
-											"horizontalAlignment": 0
 										}
 									],
 									"fillColor": "#ffd6ad",
@@ -2081,7 +2027,7 @@
 									"left": 1120,
 									"top": 355,
 									"width": 113.65087890625,
-									"height": 53
+									"height": 38
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -2756,24 +2702,6 @@
 											"height": 13,
 											"text": "+visit(i: CD)",
 											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAGLGPsbAJnUZdo=",
-											"_parent": {
-												"$ref": "AAAAAAGLGPi695RdTs8="
-											},
-											"model": {
-												"$ref": "AAAAAAGLGPsa/ZnLggc="
-											},
-											"fillColor": "#ffd6ad",
-											"font": "Arial;13;0",
-											"left": 1285,
-											"top": 342,
-											"width": 104.74267578125,
-											"height": 13,
-											"text": "+visi(i: Item)",
-											"horizontalAlignment": 0
 										}
 									],
 									"fillColor": "#ffd6ad",
@@ -2781,7 +2709,7 @@
 									"left": 1280,
 									"top": 307,
 									"width": 114.74267578125,
-									"height": 53
+									"height": 38
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -3255,27 +3183,6 @@
 									}
 								}
 							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAGLGPj/3pY2gKw=",
-							"_parent": {
-								"$ref": "AAAAAAGLGM3V+Xpg2kU="
-							},
-							"name": "visit",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAGLGPlLI5ZzaMc=",
-									"_parent": {
-										"$ref": "AAAAAAGLGPj/3pY2gKw="
-									},
-									"name": "i",
-									"type": {
-										"$ref": "AAAAAAGLFR74MD53aRs="
-									}
-								}
-							]
 						}
 					]
 				},
@@ -3340,27 +3247,6 @@
 									"name": "i",
 									"type": {
 										"$ref": "AAAAAAGLFR9RUD/W1zs="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAGLGPmx/pft32c=",
-							"_parent": {
-								"$ref": "AAAAAAGLGNMfeH6jNxY="
-							},
-							"name": "visit",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAGLGPnes5gqF3w=",
-									"_parent": {
-										"$ref": "AAAAAAGLGPmx/pft32c="
-									},
-									"name": "i",
-									"type": {
-										"$ref": "AAAAAAGLFR74MD53aRs="
 									}
 								}
 							]
@@ -3458,27 +3344,6 @@
 									}
 								}
 							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAGLGPnwdpiAHew=",
-							"_parent": {
-								"$ref": "AAAAAAGLGNOoYH+fWjA="
-							},
-							"name": "visit",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAGLGPuSXJqJRcM=",
-									"_parent": {
-										"$ref": "AAAAAAGLGPnwdpiAHew="
-									},
-									"name": "i",
-									"type": {
-										"$ref": "AAAAAAGLFR74MD53aRs="
-									}
-								}
-							]
 						}
 					]
 				},
@@ -3543,27 +3408,6 @@
 									"name": "i",
 									"type": {
 										"$ref": "AAAAAAGLFR9RUD/W1zs="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAGLGPsa/ZnLggc=",
-							"_parent": {
-								"$ref": "AAAAAAGLGPi695RUA2s="
-							},
-							"name": "visi",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAGLGPtr5JoIMKQ=",
-									"_parent": {
-										"$ref": "AAAAAAGLGPsa/ZnLggc="
-									},
-									"name": "i",
-									"type": {
-										"$ref": "AAAAAAGLFR74MD53aRs="
 									}
 								}
 							]
