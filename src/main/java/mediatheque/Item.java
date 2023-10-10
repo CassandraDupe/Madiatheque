@@ -14,8 +14,6 @@ public abstract class Item {
 		this.title = title;
 	}
 
-	public abstract void print() ;
-
 	@Override
 	public String toString() {
 		return "title=" + title ;

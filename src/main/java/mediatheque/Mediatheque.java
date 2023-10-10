@@ -12,11 +12,11 @@ public class Mediatheque {
 	}
 	
 	public void printCatalog() {
-		for (Item i : items)
-			i.print();
-		/*for (Item i : items){
+		/*for (Item i : items)
+			i.print();*/
+		for (Item i : items){
 			i.accept(new CataloguePrinter());
-		}*/
+		}
 	}
 	
 	public void printOnlyBooks() {

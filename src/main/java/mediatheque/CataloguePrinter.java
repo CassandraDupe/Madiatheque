@@ -6,12 +6,10 @@ public class CataloguePrinter implements ItemVisitor {
     }
 
     public void visit(Book item){
+        System.out.println(item);
     }
 
     public void visit(CD item){
-    }
-
-    public void visit(Item item){
         System.out.println(item);
     }
 }

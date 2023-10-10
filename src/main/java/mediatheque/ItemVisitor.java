@@ -5,5 +5,4 @@ public interface ItemVisitor {
 
     void visit(CD item);
     void visit (Book item);
-    void visit (Item item);
 }
